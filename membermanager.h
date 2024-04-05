@@ -27,7 +27,7 @@ struct FraternityMember{
 class MemberManager
 {
 public:
-    MemberManager() = default;
+    MemberManager();
 
     void addMember(const FraternityMember member);
 
